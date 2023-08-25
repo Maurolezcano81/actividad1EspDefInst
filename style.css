@@ -1,0 +1,215 @@
+:root{
+    --marronClaro: #f4a460;
+    --azul: #60b0f4;
+    --grisPagina: #FDFBF9;
+    --grisBg: #CEA283;
+    --negro: #191919;
+    --fuente: 'Lato', sans-serif;
+    --marronOscuro: #8b4513;
+    --sombra: 0px 3px 4px rgba(0, 0, 0, 0.5);
+    --sombraLibros: -4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    width: 90%;
+    background-color: var(--grisBg);
+    font-family: var(--fuente);
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.header{
+    background-image: url(./src/bg.jpg);    
+    background-size: contain;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: var(--sombra);
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.header-titulo{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 1.5rem 0;
+}
+
+.header-span{
+    color: var(--marronOscuro);
+}
+
+img{
+    width: 100%;
+}
+/* END HEADER */
+
+/* NAV */
+.nav{
+    background-color: rgba(59, 2, 2, 0.8);
+    margin: 1rem 0;
+    box-shadow: var(--sombra);
+    width: 100%;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.nav__lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav__lista li{
+    text-align: center;
+    border-right: solid 0.1px var(--grisPagina);
+    padding: 0.7rem 10rem 0.7rem 0.7rem;
+
+}
+
+.nav__lista-enlace{
+    color: var(--grisPagina);
+    text-decoration: none;
+    font-size: 2rem;
+    height: 1rem;
+    transition: color 0.3s ease;
+}
+.nav__lista li:nth-child(4){
+    border: none;
+}
+
+
+.nav__lista-enlace:visited{
+    font-style: none;
+    text-decoration: none;
+}
+
+.nav__lista-busqueda{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 0.1rem solid var(--grisPagina);    width: 24rem;
+    color: var(--grisPagina);
+    font-size: 2rem;
+    transition: background-color 0.5s ease;
+}
+
+.nav__lista-busqueda::placeholder{
+    color: var(--grisPagina);
+}
+
+
+
+.nav__lista-boton{
+    border: none;
+    background-color: transparent;
+    background-image: url(./src/search.svg);
+    width: 2rem;
+    height: 1.8rem;
+    filter: invert();
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-left: 2rem;
+    transition: background-image 0.3s ease;
+}
+
+.nav__lista-busqueda:focus{
+    background: linear-gradient(0deg, rgba(255,255,255,0.1) 10%, rgba(59, 22, 22, 0.1));
+}
+
+.nav__lista-enlace:hover{
+    color: var(--marronOscuro);
+}
+
+.nav__lista-boton:hover{
+    filter: none;
+}
+
+.mapa{
+    width: 100%;
+    font-size: 1.2rem;
+    background-image: url(./src/bg.jpg);    
+    background-size: contain;
+    border-radius: 0 0 1rem 1rem;
+    padding: 0.8rem 2rem;
+    box-shadow: var(--sombra);
+}
+
+.mapa-enlaces{
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.mapa-enlaces:visited{
+    text-decoration: none;
+    color: var(--negro);
+}
+
+.mapa-enlaces:hover{
+    color: var(--azul);
+}
+
+.mapa-separadores{
+    padding: 0 0.5rem;
+    color: var(--azul);
+    font-weight: 700;
+}
+
+.main{
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: var(--grisPagina);
+    border-radius: 0 0 0.5rem 0.5rem;
+    flex-wrap: wrap;
+    box-shadow: var(--sombra);
+    background-image: url(./src/bg.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.card{
+    margin: 4rem 2rem;
+    padding: 2rem;
+    width: 20rem;
+    background-color: rgba(59, 22, 22, 1);
+    border-radius: 1rem 0;
+    box-shadow: var(--sombraLibros);
+    
+}
+
+.card-text{
+    padding: 0.5rem;
+    color: var(--grisPagina);
+    font-weight: 300;
+}
