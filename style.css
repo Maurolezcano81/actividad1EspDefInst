@@ -299,3 +299,28 @@ img{
         position: initial;
     }
 }
+
+.contenido__contenedor{
+    display: grid;
+    grid-template-areas: "imagen titulo boton" "imagen autor valoracion" "imagen sinopsis sinopsis";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contenido-autor{
+    grid-area: autor;
+}
+
+.contenido-titulo{
+    grid-area: titulo;
+}
+
+.contenido-resumen{
+    grid-area: sinopsis;
+}
+.contenido-img{
+    grid-area: imagen;
+}
+
+.contenido-boton{
+    grid-area: boton;
+}
