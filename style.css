@@ -149,7 +149,7 @@ img{
 }
 
 .nav__lista-enlace:hover{
-    color: var(--marronOscuro);
+    color: var(--azul);
 }
 
 .nav__lista-boton:hover{
@@ -192,7 +192,7 @@ img{
 
 .main{
     width: 100%;
-    margin: 1rem 0;
+    margin: 1rem;
     background-color: var(--grisPagina);
     border-radius: 1rem;
     box-shadow: 0 0 6px var(--negro) ;
@@ -259,6 +259,10 @@ img{
     color: var(--grisPagina);
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.hero-text:hover{
+    color: var(--azul);
 }
 
 .main-opacity{
@@ -411,4 +415,31 @@ img{
 
 .valoracionIntermedia{
     background-color: rgba(247, 245, 142, 0.8);
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.footer{
+    color: var(--grisPagina);
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(59, 2, 2, 0.9);
+    padding: 1rem;
+    box-shadow: var(--sombra);
+}
+
+.footer a, .footer a:visited{
+    text-decoration: none;
+    color: var(--grisPagina);
+    text-align: center;
+}
+
+.footer-text:hover, .footer a:hover, .footer a:visited:hover{
+    color: var(--azul);
 }
