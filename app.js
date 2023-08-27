@@ -1,4 +1,3 @@
-let results;
 async function recorrerJson(archivo){
     return fetch(`./${archivo}.json`)
     .then(response => response.json())
@@ -70,6 +69,15 @@ function mostrarInicio(){
     })
 }
 
+function cambiarClase(valoracion){
+    if(valoracion >= 1 && valoracion <= 2){
+        return 'valoracionMala';
+    } else if(valoracion >= 2 && valoracion <=3.7){
+        return 'valoracionIntermedia';
+    } else{
+        return 'valoracionBuena';
+    }
+}
 
 
 function mostrarContenido(libro){
@@ -80,14 +88,46 @@ function mostrarContenido(libro){
     <a onclick="mostrarAutor()" class="mapa-enlaces">${libro.autor}</a>
     <span class="mapa-separadores">/</span>
     <a onclick="mostrarContenido()" class="mapa-enlaces">${libro.nombre}</a>
-    <span class="mapa-separadores">/</span>
+    `
+    const elementoMain = document.getElementById('main');
+    elementoMain.innerHTML = '';
+    const librosDetalles = `
+        <div class= "contenido">
+
+            <div class="contenidoImagen">
+            <img src="${libro.rutaimagen}" alt="${libro.nombre}">
+            </div>
+
+            <div class="contenidoTitulo">
+                <h2>${libro.nombre}</h2>
+            </div>
+
+            <div class="contenidoExtra">
+            <p>Autor: ${libro.autor}</p>
+            <p>Fecha de Publicacion: ${libro.anio_publicado}</p>
+            <p>Editorial</p>
+            </div>
+
+            <div class="contenidoSinopsis">
+                <h3>Sinopsis</h3>
+                <p>${libro.sinopsis}</p>
+            </div>
+            
+
+            <div class="contenidoBoton">
+            <a href="index.html" class="contenidoBoton" id="volver">Volver</a>
+            </div>
+
+            <div class="contenidoValoracion ${cambiarClase(libro.valoracion)}">
+            <p>Puntaje: </p>
+            <p>${libro.valoracion}</p>
+            </div>
+
+
+        </div>
     `
 
-    const elementoMain = document.getElementById('main');
-    main.innerHTML = '';
-    const elementoDetalles = document.createElement('div');
-        elementoDetalles.setAttribute('id', 'contenido');
-        elementoDetalles.setAttribute('class', 'contenido__contenedor');
+    elementoMain.innerHTML = librosDetalles;
 
-    
 }
+

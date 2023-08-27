@@ -5,7 +5,8 @@
       "autor": "Gabriel García Márquez",
       "anio_publicado": 1967,
       "rutaimagen": "./src/image1.jpg",
-      "sinopsis": "Cien años de soledad es una obra maestra de la literatura que narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo. La novela teje una trama llena de elementos mágicos y realistas, explorando temas como el amor, la soledad, la guerra y la decadencia. Gabriel García Márquez utiliza un estilo único y deslumbrante, creando un mundo donde lo maravilloso y lo cotidiano se entrelazan. La saga de los Buendía es un reflejo de la historia de América Latina y de la condición humana misma."
+      "sinopsis": "Cien años de soledad es una obra maestra de la literatura que narra la historia de la familia Buendía a lo largo de varias generaciones en el ficticio pueblo de Macondo. La novela teje una trama llena de elementos mágicos y realistas, explorando temas como el amor, la soledad, la guerra y la decadencia. Gabriel García Márquez utiliza un estilo único y deslumbrante, creando un mundo donde lo maravilloso y lo cotidiano se entrelazan. La saga de los Buendía es un reflejo de la historia de América Latina y de la condición humana misma.",
+      "valoracion" : 3.2
     },
     {
       "id": 2,
@@ -13,7 +14,8 @@
       "autor": "George Orwell",
       "anio_publicado": 1949,
       "rutaimagen": "src/image2.jpg",
-      "sinopsis": "En un sombrío mundo distópico, 1984 presenta a Winston Smith, un hombre atrapado en una sociedad totalitaria controlada por el Partido. La novela explora la vigilancia extrema, la manipulación del lenguaje y la distorsión de la realidad. A medida que Winston busca la verdad y la libertad, se enfrenta a consecuencias aterradoras. La obra de George Orwell es un cautivador análisis de la opresión y una advertencia sobre los peligros del poder desmedido."
+      "sinopsis": "En un sombrío mundo distópico, 1984 presenta a Winston Smith, un hombre atrapado en una sociedad totalitaria controlada por el Partido. La novela explora la vigilancia extrema, la manipulación del lenguaje y la distorsión de la realidad. A medida que Winston busca la verdad y la libertad, se enfrenta a consecuencias aterradoras. La obra de George Orwell es un cautivador análisis de la opresión y una advertencia sobre los peligros del poder desmedido.",
+      "valoracion" : 5
     },
     {
       "id": 3,
@@ -21,7 +23,8 @@
       "autor": "J.R.R. Tolkien",
       "anio_publicado": 1954,
       "rutaimagen": "src/image3.jpg",
-      "sinopsis": "En el mundo ficticio de la Tierra Media, un sencillo hobbit llamado Frodo Baggins se embarca en una épica aventura para destruir un anillo maligno que otorga un poder inmenso a su dueño. Acompañado por una comunidad diversa de personajes, Frodo enfrenta desafíos sobrenaturales y peligrosas tentaciones. El Señor de los Anillos es una historia de valentía, amistad y la lucha entre el bien y el mal en un mundo lleno de razas, culturas y mitologías fascinantes."
+      "sinopsis": "En el mundo ficticio de la Tierra Media, un sencillo hobbit llamado Frodo Baggins se embarca en una épica aventura para destruir un anillo maligno que otorga un poder inmenso a su dueño. Acompañado por una comunidad diversa de personajes, Frodo enfrenta desafíos sobrenaturales y peligrosas tentaciones. El Señor de los Anillos es una historia de valentía, amistad y la lucha entre el bien y el mal en un mundo lleno de razas, culturas y mitologías fascinantes.",
+      "valoracion" : 1.9
     },
     {
       "id": 4,
@@ -29,7 +32,8 @@
       "autor": "Jane Austen",
       "anio_publicado": 1813,
       "rutaimagen": "src/image4.jpg",
-      "sinopsis": "En la Inglaterra del siglo XIX, Elizabeth Bennet se encuentra en medio de complejas dinámicas sociales y familiares mientras busca el amor verdadero. La novela aborda cuestiones de clase, matrimonio y prejuicios a través de diálogos ingeniosos y personajes memorables. Jane Austen ofrece una crítica sutil de la sociedad de su época mientras narra una historia romántica que trasciende barreras sociales."
+      "sinopsis": "En la Inglaterra del siglo XIX, Elizabeth Bennet se encuentra en medio de complejas dinámicas sociales y familiares mientras busca el amor verdadero. La novela aborda cuestiones de clase, matrimonio y prejuicios a través de diálogos ingeniosos y personajes memorables. Jane Austen ofrece una crítica sutil de la sociedad de su época mientras narra una historia romántica que trasciende barreras sociales.",
+      "valoracion" : 4.2
     },
     {
       "id": 5,
@@ -37,7 +41,8 @@
       "autor": "Gabriel García Márquez",
       "anio_publicado": 1981,
       "rutaimagen": "src/image5.jpg",
-      "sinopsis": "En un pequeño pueblo latinoamericano, Santiago Nasar es asesinado en un acto premeditado. La historia examina cómo múltiples personajes contribuyen consciente o inconscientemente al fatídico desenlace. A medida que se revelan los detalles a lo largo de la narrativa, Crónica de una muerte anunciada explora temas de honor, destino y moralidad en una comunidad arraigada en tradiciones culturales."
+      "sinopsis": "En un pequeño pueblo latinoamericano, Santiago Nasar es asesinado en un acto premeditado. La historia examina cómo múltiples personajes contribuyen consciente o inconscientemente al fatídico desenlace. A medida que se revelan los detalles a lo largo de la narrativa, Crónica de una muerte anunciada explora temas de honor, destino y moralidad en una comunidad arraigada en tradiciones culturales.",
+      "valoracion" : 1.2
     },
     {
       "id": 6,
@@ -45,7 +50,8 @@
       "autor": "Suzanne Collins",
       "anio_publicado": 2008,
       "rutaimagen": "src/image6.jpg",
-      "sinopsis": "En un futuro distópico, los Distritos de Panem son obligados a enviar a un chico y a una chica como tributos a los Juegos del Hambre, un evento mortal televisado como castigo por una rebelión pasada. Katniss Everdeen se ofrece voluntaria para salvar a su hermana y entra en un juego de supervivencia y política. La trilogía aborda temas de opresión, resistencia y medios de comunicación."
+      "sinopsis": "En un futuro distópico, los Distritos de Panem son obligados a enviar a un chico y a una chica como tributos a los Juegos del Hambre, un evento mortal televisado como castigo por una rebelión pasada. Katniss Everdeen se ofrece voluntaria para salvar a su hermana y entra en un juego de supervivencia y política. La trilogía aborda temas de opresión, resistencia y medios de comunicación.",
+      "valoracion" : 4.4
     },
     {
       "id": 7,
@@ -53,7 +59,8 @@
       "autor": "Miguel de Cervantes Saavedra",
       "anio_publicado": 1605,
       "rutaimagen": "src/image7.jpg",
-      "sinopsis": "Considerada una de las obras cumbre de la literatura española, Don Quijote de la Mancha cuenta las aventuras del caballero Don Quijote y su fiel escudero Sancho Panza. A lo largo de sus desventuras, Don Quijote lucha contra molinos de viento creyendo que son gigantes y vive en un mundo de fantasía que choca con la realidad. La novela es una sátira de los ideales caballerescos y una reflexión sobre la ficción y la locura."
+      "sinopsis": "Considerada una de las obras cumbre de la literatura española, Don Quijote de la Mancha cuenta las aventuras del caballero Don Quijote y su fiel escudero Sancho Panza. A lo largo de sus desventuras, Don Quijote lucha contra molinos de viento creyendo que son gigantes y vive en un mundo de fantasía que choca con la realidad. La novela es una sátira de los ideales caballerescos y una reflexión sobre la ficción y la locura.",
+      "valoracion" : 4.4
     },
     {
       "id": 8,
@@ -61,7 +68,8 @@
       "autor": "J.K. Rowling",
       "anio_publicado": 1997,
       "rutaimagen": "src/image8.jpg",
-      "sinopsis": "El primer libro de la serie Harry Potter presenta a un joven huérfano, Harry, quien descubre que es un mago y es invitado a asistir a Hogwarts, una escuela de magia. Junto a sus amigos, Harry enfrenta desafíos mágicos y descubre secretos sobre su pasado. La serie combina elementos de fantasía, aventura y amistad, y sigue a Harry mientras crece y se enfrenta a un enemigo oscuro y poderoso."
+      "sinopsis": "El primer libro de la serie Harry Potter presenta a un joven huérfano, Harry, quien descubre que es un mago y es invitado a asistir a Hogwarts, una escuela de magia. Junto a sus amigos, Harry enfrenta desafíos mágicos y descubre secretos sobre su pasado. La serie combina elementos de fantasía, aventura y amistad, y sigue a Harry mientras crece y se enfrenta a un enemigo oscuro y poderoso.",
+      "valoracion" : 4.4
     },
     {
       "id": 9,
@@ -69,7 +77,8 @@
       "autor": "Harper Lee",
       "anio_publicado": 1960,
       "rutaimagen": "src/image9.jpg",
-      "sinopsis": "En la década de 1930, en el sur de Estados Unidos, Scout Finch y su hermano Jem son testigos de la injusticia racial y social mientras su padre, Atticus Finch, defiende a un hombre negro acusado falsamente de violación. La novela examina temas de moralidad, empatía y prejuicio a través de los ojos de Scout. Matar a un ruiseñor es una historia conmovedora y poderosa sobre la lucha por la justicia y la comprensión en un entorno marcado por la discriminación."
+      "sinopsis": "En la década de 1930, en el sur de Estados Unidos, Scout Finch y su hermano Jem son testigos de la injusticia racial y social mientras su padre, Atticus Finch, defiende a un hombre negro acusado falsamente de violación. La novela examina temas de moralidad, empatía y prejuicio a través de los ojos de Scout. Matar a un ruiseñor es una historia conmovedora y poderosa sobre la lucha por la justicia y la comprensión en un entorno marcado por la discriminación.",
+      "valoracion" : 4.4
 },
 {
     "id": 10,
@@ -77,7 +86,8 @@
     "autor": "Jack Kerouac",
     "anio_publicado": 1957,
     "rutaimagen": "src/image10.jpg",
-    "sinopsis": "En el camino narra los viajes y experiencias de Sal Paradise y su amigo Dean Moriarty mientras recorren América en busca de aventuras y significado. La novela es un ícono de la generación Beat, explorando temas de libertad, autodescubrimiento y la búsqueda de un sentido de pertenencia en un mundo en constante cambio."
+    "sinopsis": "En el camino narra los viajes y experiencias de Sal Paradise y su amigo Dean Moriarty mientras recorren América en busca de aventuras y significado. La novela es un ícono de la generación Beat, explorando temas de libertad, autodescubrimiento y la búsqueda de un sentido de pertenencia en un mundo en constante cambio.",
+    "valoracion" : 4.4
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "autor": "Fiodor Dostoievski",
     "anio_publicado": 1866,
     "rutaimagen": "src/image11.jpg",
-    "sinopsis": "En San Petersburgo, el estudiante Raskólnikov comete un asesinato por considerarlo un acto justificado para mejorar la sociedad. Sin embargo, enfrenta una lucha interna entre la culpa y la justificación. La novela profundiza en la psicología humana, explorando temas de moralidad, redención y la naturaleza del crimen."
+    "sinopsis": "En San Petersburgo, el estudiante Raskólnikov comete un asesinato por considerarlo un acto justificado para mejorar la sociedad. Sin embargo, enfrenta una lucha interna entre la culpa y la justificación. La novela profundiza en la psicología humana, explorando temas de moralidad, redención y la naturaleza del crimen.",
+    "valoracion" : 4.4
   },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "autor": "Ernesto Sábato",
         "anio_publicado": 1948,
         "rutaimagen": "src/image12.jpg",
-        "sinopsis": "El pintor Juan Pablo Castel se obsesiona con una mujer llamada María, a quien considera la única persona que puede entenderlo. Sin embargo, su obsesión lo lleva a cometer un acto trágico. A través de la perspectiva de Castel, la novela explora la alienación, la soledad y la búsqueda de sentido en un mundo absurdo."
+        "sinopsis": "El pintor Juan Pablo Castel se obsesiona con una mujer llamada María, a quien considera la única persona que puede entenderlo. Sin embargo, su obsesión lo lleva a cometer un acto trágico. A través de la perspectiva de Castel, la novela explora la alienación, la soledad y la búsqueda de sentido en un mundo absurdo.",
+        "valoracion" : 4.4
       },
       {
         "id": 13,
@@ -101,7 +113,8 @@
         "autor": "Michael Ende",
         "anio_publicado": 1973,
         "rutaimagen": "src/image13.jpg",
-        "sinopsis": "Momo es una niña con la habilidad de escuchar y comprender a las personas. En su lucha contra los Hombres Grises, seres que roban el tiempo de las personas, Momo descubre la importancia de la amistad y el valor del tiempo presente. La novela es una reflexión sobre el ritmo de vida y la esencia del tiempo."
+        "sinopsis": "Momo es una niña con la habilidad de escuchar y comprender a las personas. En su lucha contra los Hombres Grises, seres que roban el tiempo de las personas, Momo descubre la importancia de la amistad y el valor del tiempo presente. La novela es una reflexión sobre el ritmo de vida y la esencia del tiempo.",
+        "valoracion" : 4.4
       },
       {
         "id": 14,
@@ -109,7 +122,8 @@
         "autor": "Alfred North Whitehead",
         "anio_publicado": 1687,
         "rutaimagen": "src/image14.jpg",
-        "sinopsis": "Principia Mathematica es una obra fundamental en la historia de la ciencia. Escrita por Isaac Newton, establece las leyes del movimiento y la ley de la gravitación universal. La obra revolucionó la física y las matemáticas, sentando las bases para la comprensión de la naturaleza y el cosmos."
+        "sinopsis": "Principia Mathematica es una obra fundamental en la historia de la ciencia. Escrita por Isaac Newton, establece las leyes del movimiento y la ley de la gravitación universal. La obra revolucionó la física y las matemáticas, sentando las bases para la comprensión de la naturaleza y el cosmos.",
+        "valoracion" : 4.4
       },
       {
         "id": 15,
@@ -117,7 +131,8 @@
         "autor": "Javier Milei",
         "anio_publicado": 2023,
         "rutaimagen": "src/image15.jpg",
-        "sinopsis": "En este libro, el economista y escritor argentino Javier Milei aborda cuestiones económicas y políticas desde una perspectiva liberal y libertaria. Analiza temas como la intervención del Estado en la economía, la inflación y la importancia de la libertad individual. Es una obra provocadora que desafía las ideas convencionales."
+        "sinopsis": "En este libro, el economista y escritor argentino Javier Milei aborda cuestiones económicas y políticas desde una perspectiva liberal y libertaria. Analiza temas como la intervención del Estado en la economía, la inflación y la importancia de la libertad individual. Es una obra provocadora que desafía las ideas convencionales.",
+        "valoracion" : 4.4
       },
       {
         "id": 16,
@@ -125,7 +140,8 @@
         "autor": "Milton Friedman",
         "anio_publicado": 1980,
         "rutaimagen": "src/image16.jpg",
-        "sinopsis": "En este influyente libro, el economista Milton Friedman y su esposa Rose Friedman abogan por la importancia de la libertad individual en el contexto económico y social. Argumentan que las decisiones individuales y la competencia en los mercados conducen a una sociedad más eficiente y libre. La obra defiende el liberalismo clásico y el libre mercado."
+        "sinopsis": "En este influyente libro, el economista Milton Friedman y su esposa Rose Friedman abogan por la importancia de la libertad individual en el contexto económico y social. Argumentan que las decisiones individuales y la competencia en los mercados conducen a una sociedad más eficiente y libre. La obra defiende el liberalismo clásico y el libre mercado.",
+        "valoracion" : 4.4
       },
       {
         "id": 17,
@@ -133,7 +149,8 @@
         "autor": "Antonio Santa Ana",
         "anio_publicado": 2001,
         "rutaimagen": "src/image17.jpg",
-        "sinopsis": "La novela narra la historia de un joven llamado Emilio, quien visita a su hermana discapacitada en el hospital. A través de cartas y recuerdos, Emilio reconstruye la vida de su familia marcada por las dificultades y los desafíos. La relación con su hermana, el perro siberiano y los secretos familiares son temas centrales en la obra."
+        "sinopsis": "La novela narra la historia de un joven llamado Emilio, quien visita a su hermana discapacitada en el hospital. A través de cartas y recuerdos, Emilio reconstruye la vida de su familia marcada por las dificultades y los desafíos. La relación con su hermana, el perro siberiano y los secretos familiares son temas centrales en la obra.",
+        "valoracion" : 4.4
       },
       {
         "id": 18,
@@ -141,7 +158,8 @@
         "autor": "Laura Esquivel",
         "anio_publicado": 1989,
         "rutaimagen": "src/image18.jpg",
-        "sinopsis": "Tita, una joven apasionada por la cocina, experimenta emociones intensas que se reflejan en sus platillos. Sin embargo, debido a una tradición familiar, no puede casarse y se ve obligada a cuidar a su madre. La novela entrelaza la gastronomía con la historia de amor de Tita, explorando el poder de las emociones y la comida."
+        "sinopsis": "Tita, una joven apasionada por la cocina, experimenta emociones intensas que se reflejan en sus platillos. Sin embargo, debido a una tradición familiar, no puede casarse y se ve obligada a cuidar a su madre. La novela entrelaza la gastronomía con la historia de amor de Tita, explorando el poder de las emociones y la comida.",
+        "valoracion" : 4.4
       },
       {
         "id": 19,
@@ -149,7 +167,8 @@
         "autor": "Eduardo Sacheri",
         "anio_publicado": 2005,
         "rutaimagen": "src/image19.jpg",
-        "sinopsis": "Benjamín Chaparro, empleado judicial, narra su obsesión por un caso de homicidio y la búsqueda de justicia. Paralelamente, se exploran sus sentimientos por su compañera de trabajo, Irene. La novela aborda la justicia, el amor y la memoria en el contexto de la Argentina contemporánea."
+        "sinopsis": "Benjamín Chaparro, empleado judicial, narra su obsesión por un caso de homicidio y la búsqueda de justicia. Paralelamente, se exploran sus sentimientos por su compañera de trabajo, Irene. La novela aborda la justicia, el amor y la memoria en el contexto de la Argentina contemporánea.",
+        "valoracion" : 4.4
       },
       {
         "id": 20,
@@ -157,7 +176,8 @@
         "autor": "Rifujin na Magonote",
         "anio_publicado": 2012,
         "rutaimagen": "src/image20.jpg",
-        "sinopsis": "En 'Mushoku Tensei', seguimos la historia de Rudeus Greyrat, un hombre que es reencarnado en un mundo de espadas y magia después de llevar una vida insatisfactoria en la Tierra. Decidido a no repetir los errores de su vida pasada, Rudeus se esfuerza por aprovechar al máximo su nueva oportunidad. A medida que desarrolla habilidades mágicas y forja relaciones con otros personajes, Rudeus se enfrenta a desafíos emocionales y luchas internas. 'Mushoku Tensei' es una emocionante saga de fantasía que explora el crecimiento personal, la redención y la búsqueda de un propósito en un mundo desconocido."
+        "sinopsis": "En 'Mushoku Tensei', seguimos la historia de Rudeus Greyrat, un hombre que es reencarnado en un mundo de espadas y magia después de llevar una vida insatisfactoria en la Tierra. Decidido a no repetir los errores de su vida pasada, Rudeus se esfuerza por aprovechar al máximo su nueva oportunidad. A medida que desarrolla habilidades mágicas y forja relaciones con otros personajes, Rudeus se enfrenta a desafíos emocionales y luchas internas. 'Mushoku Tensei' es una emocionante saga de fantasía que explora el crecimiento personal, la redención y la búsqueda de un propósito en un mundo desconocido.",
+        "valoracion" : 4.4
       }
 ]
   
