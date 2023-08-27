@@ -368,7 +368,7 @@ img{
     text-align: center;
 }
 
-.contenidoBoton a, a:visited{
+.contenidoBoton a, .contenidoBoton a:visited{
     font-size: 2rem;
     background-color: #f7e7d5;
     border-radius: 1rem;

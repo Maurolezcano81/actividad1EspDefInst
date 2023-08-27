@@ -109,7 +109,10 @@ function mostrarContenido(libro){
             </div>
 
             <div class="contenidoSinopsis">
-                <h3>Sinopsis</h3>
+                <h3>Sinopsis                
+                <p class="contenido__style">
+                </p></h3>
+
                 <p>${libro.sinopsis}</p>
             </div>
             
