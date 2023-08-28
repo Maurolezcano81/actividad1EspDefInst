@@ -79,6 +79,9 @@ function cambiarClase(valoracion){
     }
 }
 
+function mostrarAutor(){
+    alert("No hice la parte de autores profe jeje")
+}
 
 function mostrarContenido(libro){
     const elementoMapa = document.getElementById('mapa');
