@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+        <!-- META TAGS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Mauro Lezcano" />
+    <meta name="author" content="Maurolezcano81" />
+    <meta name="keywords" content="Libros, Autores, Biblioteca, Harry Potter, El senor de los anillos, Javier Milei, Valoraciones, Ernesto Sabato, El tunel, Matematica" />
 
+
+    <title>Paginas Literarias - Biblioteca</title>
+
+    <!-- STYLES, ICON AND FONTS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ICON -->
+    <link rel="icon" href="./src/favicon.png">
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
 </head>
 <body onload="mostrarInicio()">
     <header class="header">
@@ -17,14 +30,14 @@
 
     <nav class="nav">
         <ul class="nav__lista">
-            <li><a href="index.html" class="nav__lista-enlace">Inicio</a></li>
+            <li><a href="#inicio" class="nav__lista-enlace">Inicio</a></li>
             <li><a href="#" class="nav__lista-enlace">Categorias</a></li>
             <li><input type="text" placeholder="Buscar" class="nav__lista-busqueda"><button id="busqueda" class="nav__lista-boton"></button></li>
-            <li><a href="#" class="nav__lista-enlace">Contacto</a></li>
+            <li><a href="#contacto" class="nav__lista-enlace">Contacto</a></li>
         </ul>
     </nav>
 
-    <section class="hero">
+    <section class="hero" id="inicio">
         <div class="hero-opacity">
             <div class="hero_text_container"><h2 class="hero-text">"En la biblioteca virtual, sabiduría digital, conocimiento sin final."</h2></div>
         </div>
@@ -38,6 +51,34 @@
     <main id="main" class="main">
 
     </main>
+
+    <section class="contacto" id="contacto">
+            <h3> Contactanos </h3>
+        <div class="container">
+            <div class="container__form">
+                <form action="#" class="contacto__form">
+                    <label for="nombreTxt">Nombre y Apellido:</label>
+                    <input type="text" name="nombreTxt" placeholder="Ingrese su nombre y Apellido" required>
+        
+                    <label for="emailTxt">Email:</label>
+                    <input type="email" name="emailTxt" placeholder="Ingrese su email" required>
+                    
+                    <label for="mensajeTxtTxt">Asunto:</label>
+                    <input type="text" name="asunto" placeholder="Tema">
+        
+                    <label for="mensajeTxt">Ingrese su mensaje:</label>
+                    <input type="text" name="mensajeTxt" placeholder="Su mensaje..." id="mensaje">
+        
+                    <input type="submit" name="botonSubmit" value="Enviar">
+                </form>
+            </div>
+            <div class="container__add">
+                <p>Buscamos Sponsor para esta posicion</p>
+                <p>Pueden comunicarse a nuestro correo, o a nuestras redes abajo</p>
+            </div>
+        </div>
+
+    </section>
 
     <footer class="footer">
         <div>
