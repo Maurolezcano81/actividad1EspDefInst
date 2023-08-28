@@ -438,6 +438,8 @@ img{
 .container{
     display: flex;
     padding: 1rem;
+    justify-content: space-around;
+    height: 50rem;
 }
 
 .container__form{
@@ -445,6 +447,7 @@ img{
     width: 50%;
     padding: 1rem;
     border-radius: 2rem;
+
 }
 
 .contacto__form{
@@ -452,6 +455,8 @@ img{
     text-align: left;    
     flex-direction: column;
     width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
 }
 
 .contacto__form input[type="text"], input[type="password"], input[type="email"]{
