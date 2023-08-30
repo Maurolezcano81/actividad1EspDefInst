@@ -64,6 +64,10 @@ function mostrarInicio(){
             botonIndividual.addEventListener('click', ()=>{
                 const libroApretado = results[indice];
                 mostrarContenido(libroApretado);
+                const elementoContenido = document.getElementById('contenido');
+                window.scrollTo({
+                    top: 550,
+                    behavior: "smooth"});
             })
         })
     })
